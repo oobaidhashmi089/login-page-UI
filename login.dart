@@ -32,31 +32,11 @@ class _LoginState extends State<Login> {
         key: _formkey,
         child: Column(
           children: [
-            // Title(
-            //   color: Colors.black,
-            //   child: Container(
-            //     alignment: Alignment(-1.0, 0),
-            //     child: Image.asset(
-            //       "asset/windows-store-icon.png",
-            //       fit: BoxFit.cover,
-            //       height: 80,
-            //       width: 100,
-            //     ),
-            //   ),
-            // ),
+    
             SizedBox(
               height: 20.0,
             ),
-            // Padding(
-            //   padding: const EdgeInsets.only(right: 250),
-            //   child: Container(
-            //     child: Image.asset(
-            //       "asset/flutter_64px.png",
-            //       height: 100,
-            //       width: 100,
-            //     ),
-            //   ),
-            // ),
+           
             Padding(
               padding: const EdgeInsets.only(bottom: 0),
               child: Column(
@@ -64,14 +44,7 @@ class _LoginState extends State<Login> {
                   Image.asset(
                     "asset/windows-store-icon.png",
                   ),
-                  // Text(
-                  //   "Welcome",
-                  //   style: TextStyle(
-                  //     fontSize: 30,
-                  //     fontWeight: FontWeight.bold,
-                  //     color: Colors.white,
-                  //   ),
-                  // ),
+                
                 ],
               ),
             ),
